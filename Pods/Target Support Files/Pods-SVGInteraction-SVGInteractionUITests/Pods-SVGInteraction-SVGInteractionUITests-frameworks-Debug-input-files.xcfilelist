@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework
+${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework

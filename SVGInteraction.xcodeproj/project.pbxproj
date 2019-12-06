@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0411D6420022A3ABD1CCF898 /* Pods_SVGInteractionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9429AD0E0DC8130A37B7CB9 /* Pods_SVGInteractionTests.framework */; };
+		41A4007ACD8FD61B894913BA /* Pods_SVGInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01024226A05D2CB450233544 /* Pods_SVGInteraction.framework */; };
+		DDFEE0306DD1EFAF28785B90 /* Pods_SVGInteraction_SVGInteractionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820B14866AB9E8858FE4608A /* Pods_SVGInteraction_SVGInteractionUITests.framework */; };
+		F6CA3ABD2399FF69007F4E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CA3ABC2399FF69007F4E38 /* AppDelegate.swift */; };
+		F6CA3AC42399FF69007F4E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CA3AC22399FF69007F4E38 /* Main.storyboard */; };
+		F6CA3AC62399FF6D007F4E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CA3AC52399FF6D007F4E38 /* Assets.xcassets */; };
+		F6CA3AC92399FF6D007F4E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CA3AC72399FF6D007F4E38 /* LaunchScreen.storyboard */; };
+		F6CA3AD42399FF6D007F4E38 /* SVGInteractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CA3AD32399FF6D007F4E38 /* SVGInteractionTests.swift */; };
+		F6CA3ADF2399FF6D007F4E38 /* SVGInteractionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CA3ADE2399FF6D007F4E38 /* SVGInteractionUITests.swift */; };
+		F6CA3B02239A0B0F007F4E38 /* SVGLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CA3B01239A0B0F007F4E38 /* SVGLayoutViewController.swift */; };
+		F6CA3B04239A0B2D007F4E38 /* SVGScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CA3B03239A0B2D007F4E38 /* SVGScrollView.swift */; };
+		F6CA3B06239A0B4C007F4E38 /* SVGMacawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CA3B05239A0B4C007F4E38 /* SVGMacawView.swift */; };
+		F6E6B395239A4C2500BC2F80 /* world.svg in Resources */ = {isa = PBXBuildFile; fileRef = F6E6B394239A4C2500BC2F80 /* world.svg */; };
+		F6E6B396239A5DD300BC2F80 /* SVGDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CA3AFF239A0933007F4E38 /* SVGDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6CA3AD02399FF6D007F4E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6CA3AB12399FF69007F4E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CA3AB82399FF69007F4E38;
+			remoteInfo = SVGInteraction;
+		};
+		F6CA3ADB2399FF6D007F4E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6CA3AB12399FF69007F4E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CA3AB82399FF69007F4E38;
+			remoteInfo = SVGInteraction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01024226A05D2CB450233544 /* Pods_SVGInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F29E22B4006F27E9990424C /* Pods-SVGInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction.release.xcconfig"; path = "Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction.release.xcconfig"; sourceTree = "<group>"; };
+		537ADEE6EB4FAB6F1D94D9CD /* Pods-SVGInteractionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteractionTests.release.xcconfig"; path = "Target Support Files/Pods-SVGInteractionTests/Pods-SVGInteractionTests.release.xcconfig"; sourceTree = "<group>"; };
+		820B14866AB9E8858FE4608A /* Pods_SVGInteraction_SVGInteractionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteraction_SVGInteractionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1688571BC9513FA506A26E /* Pods-SVGInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction.debug.xcconfig"; sourceTree = "<group>"; };
+		C45DDCA795249008A5FD3EF1 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA6EF2F7DA191F760EC7DBA7 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig"; path = "Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E9429AD0E0DC8130A37B7CB9 /* Pods_SVGInteractionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteractionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CA3AB92399FF69007F4E38 /* SVGInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CA3ABC2399FF69007F4E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6CA3AC32399FF69007F4E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6CA3AC52399FF6D007F4E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6CA3AC82399FF6D007F4E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6CA3ACA2399FF6D007F4E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CA3ACF2399FF6D007F4E38 /* SVGInteractionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGInteractionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CA3AD32399FF6D007F4E38 /* SVGInteractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGInteractionTests.swift; sourceTree = "<group>"; };
+		F6CA3AD52399FF6D007F4E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CA3ADA2399FF6D007F4E38 /* SVGInteractionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGInteractionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CA3ADE2399FF6D007F4E38 /* SVGInteractionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGInteractionUITests.swift; sourceTree = "<group>"; };
+		F6CA3AE02399FF6D007F4E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CA3AFF239A0933007F4E38 /* SVGDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGDetailsViewController.swift; sourceTree = "<group>"; };
+		F6CA3B01239A0B0F007F4E38 /* SVGLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGLayoutViewController.swift; sourceTree = "<group>"; };
+		F6CA3B03239A0B2D007F4E38 /* SVGScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGScrollView.swift; sourceTree = "<group>"; };
+		F6CA3B05239A0B4C007F4E38 /* SVGMacawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGMacawView.swift; sourceTree = "<group>"; };
+		F6E6B394239A4C2500BC2F80 /* world.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = world.svg; sourceTree = "<group>"; };
+		FD6EB759A6BED754F9C4CFD8 /* Pods-SVGInteractionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteractionTests.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteractionTests/Pods-SVGInteractionTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6CA3AB62399FF69007F4E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A4007ACD8FD61B894913BA /* Pods_SVGInteraction.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CA3ACC2399FF6D007F4E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0411D6420022A3ABD1CCF898 /* Pods_SVGInteractionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CA3AD72399FF6D007F4E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFEE0306DD1EFAF28785B90 /* Pods_SVGInteraction_SVGInteractionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22CFDFC11D2489E8B8CF70E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E1688571BC9513FA506A26E /* Pods-SVGInteraction.debug.xcconfig */,
+				0F29E22B4006F27E9990424C /* Pods-SVGInteraction.release.xcconfig */,
+				C45DDCA795249008A5FD3EF1 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */,
+				CA6EF2F7DA191F760EC7DBA7 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */,
+				FD6EB759A6BED754F9C4CFD8 /* Pods-SVGInteractionTests.debug.xcconfig */,
+				537ADEE6EB4FAB6F1D94D9CD /* Pods-SVGInteractionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3588DD17C9553587FAF6336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01024226A05D2CB450233544 /* Pods_SVGInteraction.framework */,
+				820B14866AB9E8858FE4608A /* Pods_SVGInteraction_SVGInteractionUITests.framework */,
+				E9429AD0E0DC8130A37B7CB9 /* Pods_SVGInteractionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6CA3AB02399FF69007F4E38 = {
+			isa = PBXGroup;
+			children = (
+				F6CA3ABB2399FF69007F4E38 /* SVGInteraction */,
+				F6CA3AD22399FF6D007F4E38 /* SVGInteractionTests */,
+				F6CA3ADD2399FF6D007F4E38 /* SVGInteractionUITests */,
+				F6CA3ABA2399FF69007F4E38 /* Products */,
+				22CFDFC11D2489E8B8CF70E9 /* Pods */,
+				D3588DD17C9553587FAF6336 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6CA3ABA2399FF69007F4E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6CA3AB92399FF69007F4E38 /* SVGInteraction.app */,
+				F6CA3ACF2399FF6D007F4E38 /* SVGInteractionTests.xctest */,
+				F6CA3ADA2399FF6D007F4E38 /* SVGInteractionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6CA3ABB2399FF69007F4E38 /* SVGInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				F6E6B394239A4C2500BC2F80 /* world.svg */,
+				F6CA3ABC2399FF69007F4E38 /* AppDelegate.swift */,
+				F6CA3AC22399FF69007F4E38 /* Main.storyboard */,
+				F6CA3AC52399FF6D007F4E38 /* Assets.xcassets */,
+				F6CA3AC72399FF6D007F4E38 /* LaunchScreen.storyboard */,
+				F6CA3ACA2399FF6D007F4E38 /* Info.plist */,
+				F6CA3AFF239A0933007F4E38 /* SVGDetailsViewController.swift */,
+				F6CA3B01239A0B0F007F4E38 /* SVGLayoutViewController.swift */,
+				F6CA3B03239A0B2D007F4E38 /* SVGScrollView.swift */,
+				F6CA3B05239A0B4C007F4E38 /* SVGMacawView.swift */,
+			);
+			path = SVGInteraction;
+			sourceTree = "<group>";
+		};
+		F6CA3AD22399FF6D007F4E38 /* SVGInteractionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6CA3AD32399FF6D007F4E38 /* SVGInteractionTests.swift */,
+				F6CA3AD52399FF6D007F4E38 /* Info.plist */,
+			);
+			path = SVGInteractionTests;
+			sourceTree = "<group>";
+		};
+		F6CA3ADD2399FF6D007F4E38 /* SVGInteractionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6CA3ADE2399FF6D007F4E38 /* SVGInteractionUITests.swift */,
+				F6CA3AE02399FF6D007F4E38 /* Info.plist */,
+			);
+			path = SVGInteractionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6CA3AB82399FF69007F4E38 /* SVGInteraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CA3AE32399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteraction" */;
+			buildPhases = (
+				32EEF588287EB2651E99535E /* [CP] Check Pods Manifest.lock */,
+				F6CA3AB52399FF69007F4E38 /* Sources */,
+				F6CA3AB62399FF69007F4E38 /* Frameworks */,
+				F6CA3AB72399FF69007F4E38 /* Resources */,
+				0C1D723A7051F2AC51C07076 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVGInteraction;
+			productName = SVGInteraction;
+			productReference = F6CA3AB92399FF69007F4E38 /* SVGInteraction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6CA3ACE2399FF6D007F4E38 /* SVGInteractionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CA3AE62399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteractionTests" */;
+			buildPhases = (
+				39606AF28B56FCDBD2DE15C1 /* [CP] Check Pods Manifest.lock */,
+				F6CA3ACB2399FF6D007F4E38 /* Sources */,
+				F6CA3ACC2399FF6D007F4E38 /* Frameworks */,
+				F6CA3ACD2399FF6D007F4E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6CA3AD12399FF6D007F4E38 /* PBXTargetDependency */,
+			);
+			name = SVGInteractionTests;
+			productName = SVGInteractionTests;
+			productReference = F6CA3ACF2399FF6D007F4E38 /* SVGInteractionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6CA3AD92399FF6D007F4E38 /* SVGInteractionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CA3AE92399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteractionUITests" */;
+			buildPhases = (
+				F2ED2E85A1DB749EBDA1F7E2 /* [CP] Check Pods Manifest.lock */,
+				F6CA3AD62399FF6D007F4E38 /* Sources */,
+				F6CA3AD72399FF6D007F4E38 /* Frameworks */,
+				F6CA3AD82399FF6D007F4E38 /* Resources */,
+				55C791BD3A48293EE9794077 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6CA3ADC2399FF6D007F4E38 /* PBXTargetDependency */,
+			);
+			name = SVGInteractionUITests;
+			productName = SVGInteractionUITests;
+			productReference = F6CA3ADA2399FF6D007F4E38 /* SVGInteractionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6CA3AB12399FF69007F4E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Prefeex;
+				TargetAttributes = {
+					F6CA3AB82399FF69007F4E38 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F6CA3ACE2399FF6D007F4E38 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F6CA3AB82399FF69007F4E38;
+					};
+					F6CA3AD92399FF6D007F4E38 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F6CA3AB82399FF69007F4E38;
+					};
+				};
+			};
+			buildConfigurationList = F6CA3AB42399FF69007F4E38 /* Build configuration list for PBXProject "SVGInteraction" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6CA3AB02399FF69007F4E38;
+			productRefGroup = F6CA3ABA2399FF69007F4E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6CA3AB82399FF69007F4E38 /* SVGInteraction */,
+				F6CA3ACE2399FF6D007F4E38 /* SVGInteractionTests */,
+				F6CA3AD92399FF6D007F4E38 /* SVGInteractionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6CA3AB72399FF69007F4E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CA3AC92399FF6D007F4E38 /* LaunchScreen.storyboard in Resources */,
+				F6CA3AC62399FF6D007F4E38 /* Assets.xcassets in Resources */,
+				F6CA3AC42399FF69007F4E38 /* Main.storyboard in Resources */,
+				F6E6B395239A4C2500BC2F80 /* world.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CA3ACD2399FF6D007F4E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CA3AD82399FF6D007F4E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1D723A7051F2AC51C07076 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32EEF588287EB2651E99535E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGInteraction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39606AF28B56FCDBD2DE15C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGInteractionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C791BD3A48293EE9794077 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2ED2E85A1DB749EBDA1F7E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGInteraction-SVGInteractionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6CA3AB52399FF69007F4E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E6B396239A5DD300BC2F80 /* SVGDetailsViewController.swift in Sources */,
+				F6CA3B02239A0B0F007F4E38 /* SVGLayoutViewController.swift in Sources */,
+				F6CA3B06239A0B4C007F4E38 /* SVGMacawView.swift in Sources */,
+				F6CA3ABD2399FF69007F4E38 /* AppDelegate.swift in Sources */,
+				F6CA3B04239A0B2D007F4E38 /* SVGScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CA3ACB2399FF6D007F4E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CA3AD42399FF6D007F4E38 /* SVGInteractionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CA3AD62399FF6D007F4E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CA3ADF2399FF6D007F4E38 /* SVGInteractionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6CA3AD12399FF6D007F4E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6CA3AB82399FF69007F4E38 /* SVGInteraction */;
+			targetProxy = F6CA3AD02399FF6D007F4E38 /* PBXContainerItemProxy */;
+		};
+		F6CA3ADC2399FF6D007F4E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6CA3AB82399FF69007F4E38 /* SVGInteraction */;
+			targetProxy = F6CA3ADB2399FF6D007F4E38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6CA3AC22399FF69007F4E38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CA3AC32399FF69007F4E38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6CA3AC72399FF6D007F4E38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6CA3AC82399FF6D007F4E38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6CA3AE12399FF6D007F4E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6CA3AE22399FF6D007F4E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6CA3AE42399FF6D007F4E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1688571BC9513FA506A26E /* Pods-SVGInteraction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27A27HXWFP;
+				INFOPLIST_FILE = SVGInteraction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prefeex.SVGInteraction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6CA3AE52399FF6D007F4E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F29E22B4006F27E9990424C /* Pods-SVGInteraction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27A27HXWFP;
+				INFOPLIST_FILE = SVGInteraction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prefeex.SVGInteraction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6CA3AE72399FF6D007F4E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6EB759A6BED754F9C4CFD8 /* Pods-SVGInteractionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27A27HXWFP;
+				INFOPLIST_FILE = SVGInteractionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prefeex.SVGInteractionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVGInteraction.app/SVGInteraction";
+			};
+			name = Debug;
+		};
+		F6CA3AE82399FF6D007F4E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537ADEE6EB4FAB6F1D94D9CD /* Pods-SVGInteractionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27A27HXWFP;
+				INFOPLIST_FILE = SVGInteractionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prefeex.SVGInteractionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVGInteraction.app/SVGInteraction";
+			};
+			name = Release;
+		};
+		F6CA3AEA2399FF6D007F4E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45DDCA795249008A5FD3EF1 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27A27HXWFP;
+				INFOPLIST_FILE = SVGInteractionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prefeex.SVGInteractionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SVGInteraction;
+			};
+			name = Debug;
+		};
+		F6CA3AEB2399FF6D007F4E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6EF2F7DA191F760EC7DBA7 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27A27HXWFP;
+				INFOPLIST_FILE = SVGInteractionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prefeex.SVGInteractionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SVGInteraction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6CA3AB42399FF69007F4E38 /* Build configuration list for PBXProject "SVGInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CA3AE12399FF6D007F4E38 /* Debug */,
+				F6CA3AE22399FF6D007F4E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CA3AE32399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CA3AE42399FF6D007F4E38 /* Debug */,
+				F6CA3AE52399FF6D007F4E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CA3AE62399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteractionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CA3AE72399FF6D007F4E38 /* Debug */,
+				F6CA3AE82399FF6D007F4E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CA3AE92399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteractionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CA3AEA2399FF6D007F4E38 /* Debug */,
+				F6CA3AEB2399FF6D007F4E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6CA3AB12399FF69007F4E38 /* Project object */;
+}
