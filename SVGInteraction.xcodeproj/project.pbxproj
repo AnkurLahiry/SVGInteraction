@@ -188,7 +188,7 @@
 				F6CA3AB52399FF69007F4E38 /* Sources */,
 				F6CA3AB62399FF69007F4E38 /* Frameworks */,
 				F6CA3AB72399FF69007F4E38 /* Resources */,
-				0C1D723A7051F2AC51C07076 /* [CP] Embed Pods Frameworks */,
+				9F21C1BE0D250B839A687F7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,7 +226,7 @@
 				F6CA3AD62399FF6D007F4E38 /* Sources */,
 				F6CA3AD72399FF6D007F4E38 /* Frameworks */,
 				F6CA3AD82399FF6D007F4E38 /* Resources */,
-				55C791BD3A48293EE9794077 /* [CP] Embed Pods Frameworks */,
+				3CE3318747F8B9107A69892F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,23 +310,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C1D723A7051F2AC51C07076 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		32EEF588287EB2651E99535E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,7 +354,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		55C791BD3A48293EE9794077 /* [CP] Embed Pods Frameworks */ = {
+		3CE3318747F8B9107A69892F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,6 +369,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F21C1BE0D250B839A687F7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F2ED2E85A1DB749EBDA1F7E2 /* [CP] Check Pods Manifest.lock */ = {
