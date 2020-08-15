@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0411D6420022A3ABD1CCF898 /* Pods_SVGInteractionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9429AD0E0DC8130A37B7CB9 /* Pods_SVGInteractionTests.framework */; };
-		41A4007ACD8FD61B894913BA /* Pods_SVGInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01024226A05D2CB450233544 /* Pods_SVGInteraction.framework */; };
-		DDFEE0306DD1EFAF28785B90 /* Pods_SVGInteraction_SVGInteractionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820B14866AB9E8858FE4608A /* Pods_SVGInteraction_SVGInteractionUITests.framework */; };
+		0D337030EDFE98F09702B9F7 /* Pods_SVGInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA79D34AFFE26FA874D5BC4 /* Pods_SVGInteraction.framework */; };
+		226F2FC3E1079B924BE7DF94 /* Pods_SVGInteractionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B5A0D5444B1D60D7CB5E14 /* Pods_SVGInteractionTests.framework */; };
+		93861226BCA0C20466A67B85 /* Pods_SVGInteraction_SVGInteractionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EAAE978F7A12745F753F3D /* Pods_SVGInteraction_SVGInteractionUITests.framework */; };
 		F6CA3ABD2399FF69007F4E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CA3ABC2399FF69007F4E38 /* AppDelegate.swift */; };
 		F6CA3AC42399FF69007F4E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CA3AC22399FF69007F4E38 /* Main.storyboard */; };
 		F6CA3AC62399FF6D007F4E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CA3AC52399FF6D007F4E38 /* Assets.xcassets */; };
@@ -41,14 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01024226A05D2CB450233544 /* Pods_SVGInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F29E22B4006F27E9990424C /* Pods-SVGInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction.release.xcconfig"; path = "Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction.release.xcconfig"; sourceTree = "<group>"; };
-		537ADEE6EB4FAB6F1D94D9CD /* Pods-SVGInteractionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteractionTests.release.xcconfig"; path = "Target Support Files/Pods-SVGInteractionTests/Pods-SVGInteractionTests.release.xcconfig"; sourceTree = "<group>"; };
-		820B14866AB9E8858FE4608A /* Pods_SVGInteraction_SVGInteractionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteraction_SVGInteractionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1688571BC9513FA506A26E /* Pods-SVGInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction.debug.xcconfig"; sourceTree = "<group>"; };
-		C45DDCA795249008A5FD3EF1 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CA6EF2F7DA191F760EC7DBA7 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig"; path = "Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E9429AD0E0DC8130A37B7CB9 /* Pods_SVGInteractionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteractionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		079B6E11B15B60E6DBDF7C06 /* Pods-SVGInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction.release.xcconfig"; path = "Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction.release.xcconfig"; sourceTree = "<group>"; };
+		3535874CBBC7E4A78757EEC9 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41B5A0D5444B1D60D7CB5E14 /* Pods_SVGInteractionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteractionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C40B431020DC1E74402A10 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig"; path = "Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5EA79D34AFFE26FA874D5BC4 /* Pods_SVGInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EAAE978F7A12745F753F3D /* Pods_SVGInteraction_SVGInteractionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGInteraction_SVGInteractionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17C7F691EF08566E93EE1E3 /* Pods-SVGInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteraction.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E10BDCB1C5A82369E4F05B /* Pods-SVGInteractionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteractionTests.release.xcconfig"; path = "Target Support Files/Pods-SVGInteractionTests/Pods-SVGInteractionTests.release.xcconfig"; sourceTree = "<group>"; };
+		E609F3318FB0DC06AD61EBC1 /* Pods-SVGInteractionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteractionTests.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteractionTests/Pods-SVGInteractionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6CA3AB92399FF69007F4E38 /* SVGInteraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGInteraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CA3ABC2399FF69007F4E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6CA3AC32399FF69007F4E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		F6CA3B03239A0B2D007F4E38 /* SVGScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGScrollView.swift; sourceTree = "<group>"; };
 		F6CA3B05239A0B4C007F4E38 /* SVGMacawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGMacawView.swift; sourceTree = "<group>"; };
 		F6E6B394239A4C2500BC2F80 /* world.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = world.svg; sourceTree = "<group>"; };
-		FD6EB759A6BED754F9C4CFD8 /* Pods-SVGInteractionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGInteractionTests.debug.xcconfig"; path = "Target Support Files/Pods-SVGInteractionTests/Pods-SVGInteractionTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A4007ACD8FD61B894913BA /* Pods_SVGInteraction.framework in Frameworks */,
+				0D337030EDFE98F09702B9F7 /* Pods_SVGInteraction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0411D6420022A3ABD1CCF898 /* Pods_SVGInteractionTests.framework in Frameworks */,
+				226F2FC3E1079B924BE7DF94 /* Pods_SVGInteractionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFEE0306DD1EFAF28785B90 /* Pods_SVGInteraction_SVGInteractionUITests.framework in Frameworks */,
+				93861226BCA0C20466A67B85 /* Pods_SVGInteraction_SVGInteractionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,22 +100,22 @@
 		22CFDFC11D2489E8B8CF70E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8E1688571BC9513FA506A26E /* Pods-SVGInteraction.debug.xcconfig */,
-				0F29E22B4006F27E9990424C /* Pods-SVGInteraction.release.xcconfig */,
-				C45DDCA795249008A5FD3EF1 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */,
-				CA6EF2F7DA191F760EC7DBA7 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */,
-				FD6EB759A6BED754F9C4CFD8 /* Pods-SVGInteractionTests.debug.xcconfig */,
-				537ADEE6EB4FAB6F1D94D9CD /* Pods-SVGInteractionTests.release.xcconfig */,
+				C17C7F691EF08566E93EE1E3 /* Pods-SVGInteraction.debug.xcconfig */,
+				079B6E11B15B60E6DBDF7C06 /* Pods-SVGInteraction.release.xcconfig */,
+				3535874CBBC7E4A78757EEC9 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */,
+				45C40B431020DC1E74402A10 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */,
+				E609F3318FB0DC06AD61EBC1 /* Pods-SVGInteractionTests.debug.xcconfig */,
+				E4E10BDCB1C5A82369E4F05B /* Pods-SVGInteractionTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		D3588DD17C9553587FAF6336 /* Frameworks */ = {
+		DB333AD4E807877AA17121F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01024226A05D2CB450233544 /* Pods_SVGInteraction.framework */,
-				820B14866AB9E8858FE4608A /* Pods_SVGInteraction_SVGInteractionUITests.framework */,
-				E9429AD0E0DC8130A37B7CB9 /* Pods_SVGInteractionTests.framework */,
+				5EA79D34AFFE26FA874D5BC4 /* Pods_SVGInteraction.framework */,
+				64EAAE978F7A12745F753F3D /* Pods_SVGInteraction_SVGInteractionUITests.framework */,
+				41B5A0D5444B1D60D7CB5E14 /* Pods_SVGInteractionTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 				F6CA3ADD2399FF6D007F4E38 /* SVGInteractionUITests */,
 				F6CA3ABA2399FF69007F4E38 /* Products */,
 				22CFDFC11D2489E8B8CF70E9 /* Pods */,
-				D3588DD17C9553587FAF6336 /* Frameworks */,
+				DB333AD4E807877AA17121F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,11 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6CA3AE32399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteraction" */;
 			buildPhases = (
-				32EEF588287EB2651E99535E /* [CP] Check Pods Manifest.lock */,
+				B83F86FFA47F57646B08B736 /* [CP] Check Pods Manifest.lock */,
 				F6CA3AB52399FF69007F4E38 /* Sources */,
 				F6CA3AB62399FF69007F4E38 /* Frameworks */,
 				F6CA3AB72399FF69007F4E38 /* Resources */,
-				9F21C1BE0D250B839A687F7E /* [CP] Embed Pods Frameworks */,
+				3D0354ADF6FBF2B02A1F02EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,7 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6CA3AE62399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteractionTests" */;
 			buildPhases = (
-				39606AF28B56FCDBD2DE15C1 /* [CP] Check Pods Manifest.lock */,
+				159079FFFFC5431A82B44CD0 /* [CP] Check Pods Manifest.lock */,
 				F6CA3ACB2399FF6D007F4E38 /* Sources */,
 				F6CA3ACC2399FF6D007F4E38 /* Frameworks */,
 				F6CA3ACD2399FF6D007F4E38 /* Resources */,
@@ -222,11 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6CA3AE92399FF6D007F4E38 /* Build configuration list for PBXNativeTarget "SVGInteractionUITests" */;
 			buildPhases = (
-				F2ED2E85A1DB749EBDA1F7E2 /* [CP] Check Pods Manifest.lock */,
+				27D32E21E1679360FBD46402 /* [CP] Check Pods Manifest.lock */,
 				F6CA3AD62399FF6D007F4E38 /* Sources */,
 				F6CA3AD72399FF6D007F4E38 /* Frameworks */,
 				F6CA3AD82399FF6D007F4E38 /* Resources */,
-				3CE3318747F8B9107A69892F /* [CP] Embed Pods Frameworks */,
+				7CD408883130660A0D3E3EF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,29 +310,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32EEF588287EB2651E99535E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SVGInteraction-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		39606AF28B56FCDBD2DE15C1 /* [CP] Check Pods Manifest.lock */ = {
+		159079FFFFC5431A82B44CD0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,24 +332,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3CE3318747F8B9107A69892F /* [CP] Embed Pods Frameworks */ = {
+		27D32E21E1679360FBD46402 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGInteraction-SVGInteractionUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F21C1BE0D250B839A687F7E /* [CP] Embed Pods Frameworks */ = {
+		3D0354ADF6FBF2B02A1F02EA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,7 +371,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction/Pods-SVGInteraction-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F2ED2E85A1DB749EBDA1F7E2 /* [CP] Check Pods Manifest.lock */ = {
+		7CD408883130660A0D3E3EF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SVGInteraction-SVGInteractionUITests/Pods-SVGInteraction-SVGInteractionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83F86FFA47F57646B08B736 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,7 +403,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SVGInteraction-SVGInteractionUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SVGInteraction-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -592,7 +592,7 @@
 		};
 		F6CA3AE42399FF6D007F4E38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E1688571BC9513FA506A26E /* Pods-SVGInteraction.debug.xcconfig */;
+			baseConfigurationReference = C17C7F691EF08566E93EE1E3 /* Pods-SVGInteraction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -612,7 +612,7 @@
 		};
 		F6CA3AE52399FF6D007F4E38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F29E22B4006F27E9990424C /* Pods-SVGInteraction.release.xcconfig */;
+			baseConfigurationReference = 079B6E11B15B60E6DBDF7C06 /* Pods-SVGInteraction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -632,7 +632,7 @@
 		};
 		F6CA3AE72399FF6D007F4E38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD6EB759A6BED754F9C4CFD8 /* Pods-SVGInteractionTests.debug.xcconfig */;
+			baseConfigurationReference = E609F3318FB0DC06AD61EBC1 /* Pods-SVGInteractionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -655,7 +655,7 @@
 		};
 		F6CA3AE82399FF6D007F4E38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 537ADEE6EB4FAB6F1D94D9CD /* Pods-SVGInteractionTests.release.xcconfig */;
+			baseConfigurationReference = E4E10BDCB1C5A82369E4F05B /* Pods-SVGInteractionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -678,7 +678,7 @@
 		};
 		F6CA3AEA2399FF6D007F4E38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C45DDCA795249008A5FD3EF1 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */;
+			baseConfigurationReference = 3535874CBBC7E4A78757EEC9 /* Pods-SVGInteraction-SVGInteractionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -699,7 +699,7 @@
 		};
 		F6CA3AEB2399FF6D007F4E38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA6EF2F7DA191F760EC7DBA7 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */;
+			baseConfigurationReference = 45C40B431020DC1E74402A10 /* Pods-SVGInteraction-SVGInteractionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
