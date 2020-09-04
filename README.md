@@ -28,7 +28,7 @@ open SVGInteraction.xcworkspace form XCode or using the terminal command
 
 Your project is ready. 
 
-#Known Issue
+# Known Issue
 
 The project has a minimum requirement of iOS 11. 
 
